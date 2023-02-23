@@ -1,0 +1,48 @@
+function generateMessage() {
+  var messages = [
+    "You died to who you call Rush...	Pay attention to any cues that may hint at its arrival.",
+    "You died to Rush...	Pay attention to any cues that may hint at its arrival.",
+    "You died to Rush again...	Pay attention to the lights. They are related to its arrival.",
+    "It seems you are having trouble with Rush...	The lights will always flicker when it is near. Whenever this happens, find a hiding spot!",
+    "What a predicament... You died to Rush, because you couldn not. Remember, you only have to hide once Rush is near.",
+    " What a predicament... you died to Rush, because you were stuck. That was Snare who trapped you. You will need a light source to scan for them.",
+    "You died to Hide...	Minimize the time you spend hiding. You may need to hop in and out of a hiding spot repeatedly to avoid Hide.",
+    "You died to the Eyes..	They do not like to be stared at.",
+    "You died to the Eyes again...	They have a unique audio cue. Once you hear it, be prepared. Use their blue light to work out their location. Look away from them at all times. They emit a very unique blue light. Use this to your advantage.",
+    "	You died to Screech...	It likes to lurk in dark rooms. If you suspect that it is around look for it and stare it down.",
+    "You died to Screech again...	It lurks in dark rooms. It will almost never attack you if you are holding a light source. However, if you suspect that it is around, look for it and stare it down.",
+    "You were caught by Seek...	The obstacles have crawlspaces. Crouch into them! The lights shall guide you.",
+    "It seems you have gotten lost, and died to Seek...	Look both ways before you progress!",
+    "You died to Seek again...	Remember. Look both ways very quickly! I know it may seem hard but trust me, you will get the hang of this! Fake doors never have a sign. Remember this as you check the doors!",
+    "You seem to have gotten lost again...	You must look both ways very quickly. If you do not see the real door on neither the left nor right, it must be the door ahead.",
+    "You almost made it! Do not waste any time. You will need it all!",
+    "You were almost there!	Stay away from the hands next time.",
+    "You almost made it!	Stay away from the fallen chandeliers. They will burn you.",
+    "You died to who you call Halt...	You must run away from it! However, it may appear in front of you at any time...",
+    "You died to Halt again...	As you run, it may appear in front of you at any time. When it does, turn around and keep running! This process will repeat multiple times.",
+    "You died to who you call Ambush...	It is a tricky one. Use what you have learned from Rush!",
+    "You died to Ambush again...	It gets you when you least suspect it! It has a unique scream. Once you hear it, be prepared!",
+    "You died to Ambush.	You might need to hop in and out of your hiding spot a couple of times.",
+    "You died to Ambush.	You might need to hop in and out of your hiding spot a couple of times.",
+    "You died to Ambush, because you could not hide.	Ambush and Hide prove to be a tricky duo. Remember; you do not have to hide when Ambush is away!",
+    "You could not hide from Ambush again.	I know it may seem difficult, but trust me, you will get the hang of this! You will need to hop in and out of your hiding spot.",
+    "You died to who you call the Figure...	It cannot see, but it will use sounds and vibrations to its advantage.",
+    "You died to the Figure again...	It may be blind, but its other senses far surpass yours. If you have to walk near it, do so while crouching!",
+    "You died to the Figure yet again.	Any sounds can trigger its exceptional senses. Do not come too close. It can sense your heartbeat. If it backs you into a corner, hide!",
+    "You died to the Figure while hiding...	You must control your breathing!",
+    "You were almost there!	Once the door is open, you must run out of the room!",
+    "You died to the Figure. You almost made it to that elevator!	Once the elevator breaker is fixed, run to the elevator!",
+    "You died to the Void...	Stick together next time!",
+    "You died to the Void again...	It attacks if you stay too far back... Stay together next time!",
+    "You died to Dupe...	Dupe will trick you by hiding behind fake doors. Make sure to look closely at doors you pass through!",
+    "You died to Dupe again...	Dupe will trick you by hiding behind fake doors. Its doors always have the wrong number. Keep track of the room number.",
+    "You died to Dupe yet again...	Dupe will trick you by hiding behind fake doors. If you pay attention, you can also hear its breathing. Its doors always have the wrong number. Keep track of the room number.",
+    "What.. the heck.. just happened?	I think something is wrong... Sorry about that, Kreek.",
+    "Uhh...	Alright.",
+    "That is odd. I cannot figure out who you died to.	However, I did notice you lagged back from your friends. Stay close together!",
+    "bruh bruh bruh bruh bruh bruh bruh bruh bruh bruh bruh bruh Bruh bruh bruh bruh bruh... bruh bruh bruh bruh bruh bruh	just letting you know ambush killed you infinite times so all your revives are gone sorry bruh"
+  ];
+  var messageIndex = Math.floor(Math.random() * messages.length);
+  var message = messages[messageIndex];
+  document.getElementById("message").innerHTML = message;
+}

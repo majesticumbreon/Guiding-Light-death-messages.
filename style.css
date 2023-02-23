@@ -1,0 +1,25 @@
+body {
+  background-color: #0b1b25; /* Darkest color as the background */
+  background-image: linear-gradient(
+      90deg,
+      #192e37 0px,
+      #192e37 20px,
+      #152731 20px,
+      #152731 40px,
+      #0c1f29 40px,
+      #0c1f29 60px
+    ),
+    linear-gradient(
+      90deg,
+      #192e37 0px,
+      #192e37 20px,
+      #152731 20px,
+      #152731 40px,
+      #0c1f29 40px,
+      #0c1f29 60px
+    );
+  /* Striped effect using multiple linear gradients */
+  background-size: 60px 100%;
+  /* Set the size of the stripes */
+  color: #a7e6eb; /* Text color */
+}
